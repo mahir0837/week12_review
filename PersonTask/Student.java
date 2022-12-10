@@ -45,6 +45,9 @@ public class Student extends Person{
         this.grade = grade;
     }
 
+    public void study(){
+        System.out.println(getName() + " is studying.");
+    }
     @Override
     public String toString() {
         return getClass().getSimpleName()+"{" +
